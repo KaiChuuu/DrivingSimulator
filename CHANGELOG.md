@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.1] - 2024-09-18
+
+### Fixed
+
+- QoL Truck changes
+  - Car no longer tips over
+  - Car accelerates faster
+- Asset overlap issue with dashboard and car
+- Removed automated cars drift
+- Adjusted audio
+  - Increased interactable sounds
+  - Reduced music sound
+  - Removed halo playlist
+
+<br/>
+
 ## [1.0.0] - 2024-09-17 - (Release)
 
 ### Added

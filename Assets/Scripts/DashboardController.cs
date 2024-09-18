@@ -10,7 +10,6 @@ public class DashboardController : MonoBehaviour
     [SerializeField] List<List<Song>> tracks = new List<List<Song>>();
     [SerializeField] List<Song> track1;
     [SerializeField] List<Song> track2;
-    [SerializeField] List<Song> track3;
 
     [SerializeField] AudioSource effectPlayer;
     [SerializeField] AudioClip effectAudio;
@@ -29,7 +28,6 @@ public class DashboardController : MonoBehaviour
     {
         tracks.Add(track1);
         tracks.Add(track2);
-        tracks.Add(track3);
 
         effectPlayer = GetComponent<AudioSource>();
         effectPlayer.clip = effectAudio;

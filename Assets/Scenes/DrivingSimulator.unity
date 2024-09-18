@@ -861,6 +861,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 7957117898803756551, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
+      propertyPath: m_Constraints
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: forward
       value: 0
@@ -875,7 +879,7 @@ PrefabInstance:
       objectReference: {fileID: 1870649749}
     - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: acceleration
-      value: 475
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 8544713231353707678, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: m_Mesh
@@ -1503,11 +1507,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!20 &627396773 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 673672577741615789, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-  m_PrefabInstance: {fileID: 4350975001931514917}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &677187954
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,6 +3717,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 1354
       objectReference: {fileID: 0}
+    - target: {fileID: 7957117898803756551, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
+      propertyPath: m_Constraints
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: forward
       value: 1
@@ -3732,7 +3735,7 @@ PrefabInstance:
       objectReference: {fileID: 1870649749}
     - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: acceleration
-      value: 425
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 8544713231353707678, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: m_Mesh
@@ -4698,26 +4701,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 188417419}
-    - target: {fileID: 289732805764207815, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 83
-      objectReference: {fileID: 0}
     - target: {fileID: 345121706938830000, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1290291360}
-    - target: {fileID: 345121706938830000, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 106
-      objectReference: {fileID: 0}
     - target: {fileID: 1545049130697336573, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1614903990}
-    - target: {fileID: 1545049130697336573, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 1375
-      objectReference: {fileID: 0}
     - target: {fileID: 1583062320778322636, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4730,18 +4721,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 178358555}
-    - target: {fileID: 1934011663256092352, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 86
-      objectReference: {fileID: 0}
     - target: {fileID: 2949469081817809577, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1962303280}
-    - target: {fileID: 2949469081817809577, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 65
-      objectReference: {fileID: 0}
     - target: {fileID: 3291442051969273091, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4750,14 +4733,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1508235505}
-    - target: {fileID: 3439942934281463811, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4046807907683483927, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 627396773}
     - target: {fileID: 4070818084228625471, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4778,41 +4753,13 @@ PrefabInstance:
       propertyPath: activePanel
       value: 
       objectReference: {fileID: 1190898145}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[2].name
-      value: Halo Combat Evolved - #19 On a Pale Horse
-      objectReference: {fileID: 0}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[3].name
-      value: Halo 2 - Volume 1 - #1 Halo Theme - Mjolnir Mix
-      objectReference: {fileID: 0}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[4].name
-      value: Halo 2 - Volume 1 - #2 Blow Me Away
-      objectReference: {fileID: 0}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[2].songData
-      value: 
-      objectReference: {fileID: 8300000, guid: 937e070c89de8884daf372a30f1331f3, type: 3}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[3].songData
-      value: 
-      objectReference: {fileID: 8300000, guid: b1388b1dc6edbc845813f16b5a74d8ea, type: 3}
-    - target: {fileID: 6314584215787219045, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: track3.Array.data[4].songData
-      value: 
-      objectReference: {fileID: 8300000, guid: ebcc4da6d77e43d4780219c2bbe24241, type: 3}
     - target: {fileID: 6370220751267147648, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.75
       objectReference: {fileID: 0}
     - target: {fileID: 6370220751267147648, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 6370220751267147648, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4850,10 +4797,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 395582181}
-    - target: {fileID: 8013459979528469957, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 121
-      objectReference: {fileID: 0}
     - target: {fileID: 8519334031954362514, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4866,10 +4809,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1296223412}
-    - target: {fileID: 8834702335142093272, guid: c3929bce1d73b5a4ca9e9cb180fb8329, type: 3}
-      propertyPath: m_VersionIndex
-      value: 65
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4955,6 +4894,14 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 1360
       objectReference: {fileID: 0}
+    - target: {fileID: 7957117898803756551, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
+      propertyPath: m_Mass
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957117898803756551, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
+      propertyPath: m_Constraints
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: maxSpeed
       value: 60
@@ -4963,6 +4910,10 @@ PrefabInstance:
       propertyPath: chunkLoader
       value: 
       objectReference: {fileID: 1870649749}
+    - target: {fileID: 8393204076003784485, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
+      propertyPath: acceleration
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 8544713231353707678, guid: 7b78c26ab35f0c04398e76b2a170398c, type: 3}
       propertyPath: m_Mesh
       value: 
