@@ -19,3 +19,9 @@ itch.io - https://happyteam.itch.io/driving-simulator
   - Dashboard panel
     - Multiple tracks for songs
   - Interactable mirrors
+
+<br/>
+
+<a href="https://github.com/KaiChuuu/DrivingSimulator/">
+  <img src="/Assets/truckSimImage.jpg" width="520" height="280">
+</a>
