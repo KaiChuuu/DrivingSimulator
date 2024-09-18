@@ -72,4 +72,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Unity Store Assets
-Assets/Models/
+Audio/
+Road/
+Office Pack/
